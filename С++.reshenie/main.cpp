@@ -52,7 +52,7 @@ int main( int argc, char**)
 
     swap (a , b);
 
-    std::cout << "a = " << a << ", b = " << b << std::endl;
+    std::cin << "a = " << a << ", b = " << b << std::endl;
 }
 
 
@@ -63,9 +63,10 @@ void swap(int &a, int &b)
 {
     if (&a == &b);
     a = a + b;
-    b = a - b:
+    b = a - b;
     a = a - b;
 }
 
 
 return EXIT_SUCCESS;
+
