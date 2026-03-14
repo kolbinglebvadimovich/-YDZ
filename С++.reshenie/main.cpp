@@ -56,7 +56,7 @@ int main( int argc, char**)
 }
 
 
-return 0;
+return EXIT_SUCCESS;
 
 
 void swap(int &a, int &b)
