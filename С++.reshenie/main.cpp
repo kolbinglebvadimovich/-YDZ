@@ -39,10 +39,10 @@ int main( int argc, char**)
     bool q8 = 67;
     std::cout << &q8 << std::endl;
     std::cout << sizeof(q8) << std::endl;
-}
 
-
+    
 return EXIT_SUCCESS;
+}
 
 int main( int argc, char**)
 {
@@ -52,11 +52,11 @@ int main( int argc, char**)
 
     swap (a , b);
 
-    std::cin << "a = " << a << ", b = " << b << std::endl;
-}
+    std::cout << "a = " << a << ", b = " << b << std::endl;
 
-
+    
 return EXIT_SUCCESS;
+}
 
 
 void swap(int &a, int &b)
@@ -65,8 +65,8 @@ void swap(int &a, int &b)
     a = a + b;
     b = a - b;
     a = a - b;
-}
 
-
+    
 return EXIT_SUCCESS;
+}
 
